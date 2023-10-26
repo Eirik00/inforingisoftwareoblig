@@ -1,7 +1,7 @@
 const isLeapYear = require("./leapyear");
 
 test("2000 was a leap year, expect=true", () => {
-    expect(isLeapYear(2000)).toBe(false)
+    expect(isLeapYear(2000)).toBe(true)
 });
 test("1700 was not a leap year, expect=false", () =>{
     expect(isLeapYear(1700)).toBe(false);
